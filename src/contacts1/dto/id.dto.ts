@@ -5,5 +5,6 @@ export class IdDto {
     @IsAlphanumeric()
     @MinLength(24)
     @MaxLength(24)
+    @IdDto()
     id: string;
 }
