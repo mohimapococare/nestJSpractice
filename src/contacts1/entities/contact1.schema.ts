@@ -5,6 +5,7 @@ import { Column, Entity, ObjectIdColumn, ObjectId } from 'typeorm';
 export class Contact1 {
   @ObjectIdColumn()
   id: ObjectId;
+  // id: ObjectId;
 
   @Column()
   name: string;
