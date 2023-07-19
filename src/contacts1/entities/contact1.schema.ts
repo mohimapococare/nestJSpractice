@@ -6,6 +6,7 @@ export class Contact1 {
   @ObjectIdColumn()
   id: ObjectId;
   // id: ObjectId;
+  // id: ObjectId;
 
   @Column()
   name: string;
